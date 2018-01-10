@@ -26,4 +26,5 @@
         'security/change_passwd_security.xml',
         'views/change_passwd.xml',
     ],
+    'application': True,
 }
