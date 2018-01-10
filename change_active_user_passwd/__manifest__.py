@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "change active user passwd",
+    'name': "change active user password",
 
     'summary': """
         this module allow any user to update his personal password without having Access Rights .
@@ -26,5 +26,7 @@
         'security/change_passwd_security.xml',
         'views/change_passwd.xml',
     ],
+    'installable': True,
     'application': True,
+    'auto_install': False,
 }
