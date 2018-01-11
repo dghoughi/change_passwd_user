@@ -18,7 +18,7 @@
     'website': "http://www.marocsys.com",
 
     'category': 'Human Resources',
-    'version': '0.1',
+    'version': '10.0',
 
     'depends': ['base'],
 
