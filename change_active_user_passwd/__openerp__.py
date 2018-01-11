@@ -21,7 +21,7 @@
     'version': '0.1',
 
     'depends': ['base'],
-
+    'sequence' : 1,
     'data': [
         'security/change_passwd_security.xml',
         'views/change_passwd.xml',
