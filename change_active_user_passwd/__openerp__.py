@@ -24,7 +24,7 @@
     'sequence' : 1,
     'data': [
         'security/change_passwd_security.xml',
-        'views/change_passwd.xml',
+        'change_passwd.xml',
     ],
     'installable': True,
     'application': True,
