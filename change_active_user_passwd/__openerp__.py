@@ -19,13 +19,13 @@
 
     'category': 'Human Resources',
     'version': '8.0',
-
     'depends': ['base'],
     'sequence' : 1,
     'data': [
         'security/change_passwd_security.xml',
         'change_passwd.xml',
     ],
+    'images' : ['static/images/main_screenshot.png'],
     'installable': True,
     'application': True,
     'auto_install': False,
