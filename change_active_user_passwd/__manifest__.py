@@ -17,7 +17,7 @@
     'author': "Marocsys",
     'website': "http://www.marocsys.com",
 
-    'category': 'Human Resources',
+    'category': 'Tools',
     'version': '10.0',
 
     'depends': ['base'],
@@ -26,6 +26,7 @@
         'security/change_passwd_security.xml',
         'views/change_passwd.xml',
     ],
+    'images' : ['static/images/main_screenshot.png'],
     'installable': True,
     'application': True,
     'auto_install': False,

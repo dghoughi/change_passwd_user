@@ -12,7 +12,7 @@ class change_passwd(models.TransientModel):
     passwd = fields.Char('Password', required=True)
     
     def change_passwd_buttonn(self):
-        print('________change_passwd_button____')
+#         print('________change_passwd_button____')
         self.ensure_one()
         encrypted = self.env['res.users']._crypt_context().encrypt(self.passwd)
         self.env.cr.execute(
