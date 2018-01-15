@@ -17,7 +17,7 @@
     'author': "Marocsys",
     'website': "http://www.marocsys.com",
 
-    'category': 'Human Resources',
+    'category': 'Tools',
     'version': '8.0',
     'depends': ['base'],
     'sequence' : 1,
